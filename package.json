@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NatalliaMaskalenko/spoko-blog.git"
+    "url": "git+https://github.com/NatalliaMaskalenko/Pedometer.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NatalliaMaskalenko/spoko-blog/issues"
+    "url": "https://github.com/NatalliaMaskalenko/Pedometer/issues"
   },
-  "homepage": "https://github.com/NatalliaMaskalenko/spoko-blog#readme",
+  "homepage": "https://github.com/NatalliaMaskalenko/Pedometer#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
