@@ -1,0 +1,35 @@
+.categories{    
+    display: none;
+
+@media screen and (min-width: 1300px) {
+    flex-basis: calc(100% / 3 * 1);
+    display: block;
+    margin-left: 22px;
+    padding-top: 30px;
+    padding-left: 34px;
+    padding-right: 24px;
+    max-width: 448px;
+}
+}
+
+.categories__title{
+    font-family: 'Futura PT Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 1.1;    
+}
+
+.categories__item{
+    display: inline-block;
+    margin-right: 21px;
+    margin-bottom: 21px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    padding-left: 26px;
+    padding-right: 20px;
+    border-radius: 12px;
+    color: var(--color-link-categories);
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.05);
+}

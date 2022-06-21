@@ -1,0 +1,29 @@
+.billboard__container{
+    @media screen and (min-width: 1300px) {
+        display: flex;
+        flex-wrap: wrap;    
+        margin-top: 84px;  
+        margin-bottom: 84px;
+    }    
+}
+
+
+.billboard__tumb {
+    @media screen and (min-width: 1300px) {
+        flex-basis: calc(100% * 0.63);
+    }    
+}
+
+.billboard__wrap {
+    @media screen and (min-width: 1300px) {
+        flex-basis: calc(100% * 0.37);
+        padding-top: 74px;
+        padding-left: 83px;
+        padding-right: 81px;
+        padding-bottom: 80px;
+    }    
+}
+
+.billboard__img{
+    height: 100%;
+}

@@ -1,0 +1,21 @@
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 77px;
+    margin-bottom: 115px;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+
+    @media screen and (min-width: 1300px) {
+        margin-top: 110px;
+        margin-bottom: 137px;
+    }
+}
+
+.button__svg{
+    width: 14px;
+    height: 7px;
+    margin-left: 11px;
+}   

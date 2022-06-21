@@ -1,0 +1,31 @@
+{
+  "name": "spoko-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "prebuild": "parcel build src/*.html --public-url /team-project-JS/",
+    "build": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatalliaMaskalenko/spoko-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatalliaMaskalenko/spoko-blog/issues"
+  },
+  "homepage": "https://github.com/NatalliaMaskalenko/spoko-blog#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "sass": "^1.51.0"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "posthtml-include": "^1.6.2"
+  }
+}

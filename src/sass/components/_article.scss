@@ -1,0 +1,40 @@
+.article__card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    overflow: hidden;
+
+    @media screen and (max-width: 1299.99px) {
+        border-radius: 20px;
+        margin-bottom: 36px;
+ }  
+}
+
+.article__card--mobile{
+    display: none;
+
+    @media screen and (min-width: 1300px) {
+        display: block;
+    }
+}
+
+.tumb{
+    overflow: hidden;
+}
+
+.article__img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.article__wrap{
+    @media screen and (max-width: 1299.99px) {
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 35px;
+        padding-bottom: 58px;
+        display: flex;
+        flex-direction:column;        
+    }
+}
+

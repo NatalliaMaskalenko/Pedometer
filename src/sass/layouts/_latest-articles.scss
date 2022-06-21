@@ -1,0 +1,12 @@
+.latest-articles{
+    display: flex; 
+    &:not(:last-child) {
+        margin-bottom: 89px;
+    }
+}
+
+
+.latest-articles__wrapp{
+    padding-left: 80px;
+    padding-top: 25px;
+}

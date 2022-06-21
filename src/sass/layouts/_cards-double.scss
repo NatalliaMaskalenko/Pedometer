@@ -1,0 +1,16 @@
+@media screen and (min-width: 1300px) {
+    .cards--double {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -62px;
+        margin-top: -62px;
+        margin-bottom: 140px;
+    }
+    
+    .container__cards--double {
+        flex-basis: calc(100% / 2 - 62px);
+        margin-left: 62px;
+        margin-top: 62px;
+    
+    }
+}
