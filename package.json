@@ -1,11 +1,11 @@
 {
-  "name": "spoko-blog",
+  "name": "pedometer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/*.html",
-    "prebuild": "parcel build src/*.html --public-url /team-project-JS/",
+    "prebuild": "parcel build src/*.html --public-url /pedometer/",
     "build": "gh-pages -d dist"
   },
   "repository": {

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pedometer" />
+    <title>Pedometer | profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class=""
+        srcset="
+          ../images/loading/loading-1@1x.png 1x,
+          ../images/loading/loading-1@2x.png 2x,
+          ../images/loading/loading-1@3x.png 3x
+        "
+        src="../images/loading/loading-1@1x.png"
+        alt="loading"
+      />
+      <h1 class="title-profile">What’s your current walking level?</h1>
+      <ul class="list">
+        <li>
+          <a href="./index-2.html">
+            <svg class="" width="40" height="40">
+              <use href="../images/icons-sprite/symbol-defs.svg#icon-star-1"></use>
+            </svg>
+            <h2>Beginner</h2>
+            <p>You’re absolutely new to walkings</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <svg class="" width="40" height="40">
+              <use href="../images/icons-sprite/symbol-defs.svg#icon-star-2"></use>
+            </svg>
+            <h2>Intermediate</h2>
+            <p>You walking regularly, can walk 1-2 miles per session</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <svg class="" width="40" height="40">
+              <use href="../images/icons-sprite/symbol-defs.svg#icon-star-3"></use>
+            </svg>
+            <h2>Advenced</h2>
+            <p>You can walk 3 or more miles per session</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script src="../index.js"></script>
+  </body>
+</html>
