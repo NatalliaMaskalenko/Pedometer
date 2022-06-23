@@ -1,0 +1,23 @@
+.link__card-colummn{
+    // display: flex;
+    // align-items: center;
+    display: block;
+    padding-top: 28px;
+    padding-left: 15px;
+    padding-bottom: 27px;
+    padding-right: 15px;
+    background-color: var(--color-bg-accent);
+    border-radius: 19px;
+}
+
+
+.inner__card-colummn{
+    padding-left: 70px;
+    position: relative;
+}
+
+   .inner__card-colummn .svg {
+      position: absolute;
+      left: 15px;
+      top: 28px;
+   }

@@ -1,0 +1,35 @@
+.checkbox__form{
+    padding-top: 32px;
+}
+
+.checkbox__label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox__input:checked + .checkbox__icon-wrap .checkbox__icon{
+    left: 22px;
+}
+
+.checkbox__input:checked + .checkbox__icon-wrap {
+    background-color: var(--color-bg-checkend-box);
+}
+
+.checkbox__icon-wrap{
+    position: relative;
+    height: 31px;
+    width: 51px;
+    border-radius: 40px;
+    background-color: var(--color-bg-box);
+    
+}
+
+.checkbox__icon {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background-color: #ffffff;    
+}
