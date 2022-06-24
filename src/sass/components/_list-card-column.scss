@@ -1,6 +1,8 @@
+.item__card-colummn:not(:last-child){
+    margin-bottom: 15px;
+}
 .link__card-colummn{
-    // display: flex;
-    // align-items: center;
+    position: relative;
     display: block;
     padding-top: 28px;
     padding-left: 15px;
@@ -10,14 +12,14 @@
     border-radius: 19px;
 }
 
-
 .inner__card-colummn{
-    padding-left: 70px;
-    position: relative;
+    padding-left: 54px;
+    
 }
-
-   .inner__card-colummn .svg {
+   .link__card-colummn svg {
       position: absolute;
       left: 15px;
-      top: 28px;
+      top: 50%;
+    transform: translateY(-50%);
+
    }

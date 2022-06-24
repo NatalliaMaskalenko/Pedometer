@@ -22,3 +22,34 @@
     font-size: 12px;
     line-height: 1.5;
 }
+
+.title__main{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-title-main);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 211px;    
+}
+
+.subtitle__main{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--color-text-main-page);
+    margin-top: 17px;
+    margin-bottom: 34px;
+}
+
+.text__main{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--color-text-main-page);
+}
