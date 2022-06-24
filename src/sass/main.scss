@@ -2,10 +2,13 @@
 @import "./base/container";
 @import "./components/list-card-flex";
 @import "./components/list-card-column";
+@import "./components/list-card-narrow";    //дополнительные стили к вертикальному списку, более узкие строки
 @import "./components/title";
 @import "./components/checkbox";
+@import "./components/button-next";
 
 @import "./layouts/main-page";
+@import "./layouts/app-advantages-page";   //page - 6
 
 
 @import "./utils/variables";

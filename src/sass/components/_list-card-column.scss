@@ -1,6 +1,15 @@
+.list__card-colummn{
+    margin-top: 24px;
+}
+
+.list__card-colummn--large {
+    margin-top: 54px;
+}
+
 .item__card-colummn:not(:last-child){
     margin-bottom: 15px;
 }
+
 .link__card-colummn{
     position: relative;
     display: block;

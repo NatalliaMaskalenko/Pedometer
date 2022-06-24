@@ -1,19 +1,21 @@
 .list__card-flex{
     display: flex;  
     flex-wrap: wrap;  
-    gap: 15px;
+    row-gap: 15px;
+    margin-left: -7px;
+    margin-right: -7px;
     margin-top: 30px;
 }
 
-.list__card-flex--location{
+.list__card-flex--large{
     margin-top: 54px;
 }
 
 
 .item__card-flex{
-flex-basis: calc((100% - 30px) / 2);
-margin-left: auto;
-margin-right: auto;
+    flex-basis: calc((100% - 30px) / 2);
+    margin-left: 7px;    
+    margin-right: 7px;
 }
 
 
