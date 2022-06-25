@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pedometer" />
+    <title>Pedometer | profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        srcset="
+          ../images/loading/loading-16-male@1x.png 1x,
+          ../images/loading/loading-16-male@2x.png 2x,
+          ../images/loading/loading-16-male@3x.png 3x
+        "
+        src="../images/loading/loading-16-male@1x.png"
+        alt="loading"
+      />
+      <h1 class="title-profile">Your goal weight</h1>
+      <form class="form">
+        <div class="form__wrapp">
+          <div>
+            <input
+              class="visually-hidden form__input"
+              type="radio"
+              name="weight"
+              value="lbs"
+              id="weight_lbs"
+            />
+            <label class="form__label" for="weight_lbs">LBS</label>
+          </div>
+
+          <div>
+            <input
+              class="visually-hidden form__input"
+              type="radio"
+              name="weight"
+              value="kg"
+              id="weight_kg"
+              checked
+            />
+            <label class="form__label" for="weight_kg">KG </label>
+          </div>
+        </div>
+
+        <input class="form__label--string" type="number" name="weight" placeholder="KG" autofocus />
+      </form>
+
+      <a class="button__next button__large" href=".//index-male-17.html">Done</a>
+    </div>
+    <!-- <script src="../index.js"></script> -->
+  </body>
+</html>

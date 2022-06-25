@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pedometer" />
+    <title>Pedometer | profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container container__characteristics">
+      <img
+        srcset="
+          ../images/loading/loading-18-male@1x.png 1x,
+          ../images/loading/loading-18-male@2x.png 2x,
+          ../images/loading/loading-18-male@3x.png 3x
+        "
+        src="../images/loading/loading-18-male@1x.png"
+        alt="loading"
+      />
+      <h1 class="title-profile">When do you want your body to change?</h1>
+      <form class="form">
+        <input
+          class="form__label--string form__label--small"
+          type="number"
+          name="height"
+          placeholder="dd/ mm/ yy"
+          autofocus
+        />
+      </form>
+
+      <p class="text__check text__check--large">Skip this step</p>
+
+      <a class="button__next button__medium" href=".//index-female-11.html">Done</a>
+    </div>
+    <!-- <script src="../index.js"></script> -->
+  </body>
+</html>
