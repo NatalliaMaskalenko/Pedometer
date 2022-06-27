@@ -18,7 +18,7 @@
     />
   </head>
   <body>
-    <div class="container">
+    <div class="container container__plan">
       <img
         srcset="
           ../images/loading/loading-14@1x.png 1x,
@@ -29,15 +29,23 @@
         alt="loading"
       />
       <h1 class="title-profile">The only weight loss program you’ll ever need</h1>
-      <p class="text__app-advantages text__reviews">
+      <p class="text__plan">
         Based on your answers and personal goals, you can reach your goal weight of
         <span class="text__accent">65 kg by following our plan</span>
       </p>
-      <img src="../images/images/graph-14@1x.png" alt="grapf" />
-      <include src="partials/reviews.html"></include>
+      <img class="grapf__plan" src="../images/images/graph-14@1x.png" alt="grapf" />
+      <a class="button__next button__next--plan" href=".//index-15.html">Next</a>
 
-      <a class="button__next" href=".//index-7.html">Next</a>
+      <div class="reviews__plan">
+        <div class="reviews__plan--wrapper">
+          <img src="../images/images/background.png" alt="" />
+        </div>
+        <div class="reviews__plan--inner">
+          <include src="partials/reviews.html"></include>
+        </div>
+      </div>
     </div>
-    <script src="../index.js"></script>
+
+    <!-- <script src="../index.js"></script> -->
   </body>
 </html>

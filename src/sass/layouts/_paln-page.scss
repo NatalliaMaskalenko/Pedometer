@@ -1,0 +1,44 @@
+.container__plan{
+position: relative;
+overflow: hidden;
+}
+
+.text__plan {
+    margin-top: 24px;
+    margin-bottom: 33px;
+}
+
+.grapf__plan{
+margin-bottom: 38px;
+}
+
+.reviews__plan{    
+    position: absolute;   
+    overflow: hidden;
+    max-height: 310px;
+    padding-left: 16px;
+    padding-left: 16px;
+    left: 0;
+    top: 505px;
+    
+}
+
+.eviews__plan--inner{   
+    position: absolute;    
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+.reviews__plan--wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.button__next--plan{
+    position: relative;
+    margin-top: 140px;
+    z-index: 10;
+}

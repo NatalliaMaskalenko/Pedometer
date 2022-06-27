@@ -5,14 +5,16 @@
 @import "./components/title";
 @import "./components/checkbox";
 @import "./components/button-next";
+@import "./components/reviews-partial";   // reviews-partial 
+@import "./components/statement";
 
 @import "./layouts/main-page";
 @import "./layouts/app-advantages-page";   //page - 6
 @import "./layouts/main-page-male";    //page - 11 -male/female
 @import "./layouts/body-type-page";    //page - 13 male/female
 @import "./layouts/characteristics-page";   //page - 14, 15, 16 male/female
-// @import "./layouts/reviews-page";           //page - 14
+@import "./layouts/paln-page";             //page - 14
+@import "./layouts/lifestyle-page";        //page - 15
 
-// program
 
 @import "./utils/variables";
