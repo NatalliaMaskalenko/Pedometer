@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Pedometer" />
-    <title>Pedometer | profile</title>
+    <title>Pedometer | statements</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -18,25 +18,40 @@
     />
   </head>
   <body>
-    <div class="container">
-      <img
-        class=""
-        srcset="
-          ../images/loading/loading-17@1x.png 1x,
-          ../images/loading/loading-17@2x.png 2x,
-          ../images/loading/loading-17@3x.png 3x
-        "
-        src="../images/loading/loading-17@1x.png"
-        alt="loading"
-      />
-      <h1 class="title-profile">Would your life change if you reached your ideal weight?</h1>
+    <div class="container container__statement">
       <div>
-        <span></span>
-        <span></span>
-        <span></span>
+        <img
+          class=""
+          srcset="
+            ../images/loading/loading-18@1x.png 1x,
+            ../images/loading/loading-18@2x.png 2x,
+            ../images/loading/loading-18@3x.png 3x
+          "
+          src="../images/loading/loading-18@1x.png"
+          alt="loading"
+        />
+        <h1 class="title-profile title__statement">Do you relate to the following statement?</h1>
+        <div class="wrapp__statement">
+          <svg class="svg__statement--top" width="17" height="14">
+            <use
+              width="17"
+              height="14"
+              href="../images/icons-sprite/symbol-defs.svg#icon-Vector1"
+            ></use>
+          </svg>
+          <p class="sample__statement">Walking is a good way to reduce stress level</p>
+          <svg class="svg__statement--bottom" width="17" height="14">
+            <use
+              width="17"
+              height="14"
+              href="../images/icons-sprite/symbol-defs.svg#icon-Vector-1"
+            ></use>
+          </svg>
+        </div>
       </div>
+
       <include src="partials/statement.html"></include>
     </div>
-    <script src="../index.js"></script>
+    <!-- <script src="../index.js"></script> -->
   </body>
 </html>

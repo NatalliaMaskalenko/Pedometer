@@ -1,0 +1,33 @@
+.list__statement{
+    display: flex;    
+    row-gap: 15px;
+    margin-left: -7px;
+    margin-right: -7px;    
+}
+
+.link__statement{
+    height: 100%;
+    display: block;
+    background-color: var(--color-bg-accent);
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 14px;
+}
+
+.item__statement{
+    flex-basis: calc((100% - 45px) / 3);
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.text__statement{
+    padding: 0;
+    margin-top: 5px;
+}
+
+
+
+

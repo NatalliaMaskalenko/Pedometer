@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pedometer" />
+    <title>Pedometer | statements</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container container__statement">
+      <div>
+        <img
+          class=""
+          srcset="
+            ../images/loading/loading-22@1x.png 1x,
+            ../images/loading/loading-22@2x.png 2x,
+            ../images/loading/loading-22@3x.png 3x
+          "
+          src="../images/loading/loading-22@1x.png"
+          alt="loading"
+        />
+        <h1 class="title-profile title__statement">Do you relate to the following statement?</h1>
+        <div class="wrapp__statement">
+          <svg class="svg__statement--top" width="17" height="14">
+            <use
+              width="17"
+              height="14"
+              href="../images/icons-sprite/symbol-defs.svg#icon-Vector1"
+            ></use>
+          </svg>
+          <p class="sample__statement sample__statement-tiny sample__statement-small">
+            I need some extra motivation to workout regularly
+          </p>
+          <svg class="svg__statement--bottom" width="17" height="14">
+            <use
+              width="17"
+              height="14"
+              href="../images/icons-sprite/symbol-defs.svg#icon-Vector-1"
+            ></use>
+          </svg>
+        </div>
+      </div>
+
+      <include src="partials/statement.html"></include>
+    </div>
+    <!-- <script src="../index.js"></script> -->
+  </body>
+</html>

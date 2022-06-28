@@ -1,0 +1,39 @@
+.container__statement{
+    padding-bottom: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title__statement{
+    margin-top: 30px;
+    margin-bottom: 81px;
+}
+
+.sample__statement{    
+    font-weight: 500;        
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 22px;
+}
+
+.sample__statement-tiny {
+    margin-top: 21px;   
+}
+
+.sample__statement-small {
+    margin-bottom: 18px;
+}
+
+.wrapp__statement{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.svg__statement--bottom {
+    display: block;
+    margin-left: auto;
+}
+
