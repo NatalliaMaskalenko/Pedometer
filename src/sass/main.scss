@@ -7,6 +7,7 @@
 @import "./components/button-next";
 @import "./components/reviews-partial";   // reviews-partial 
 @import "./components/statement";
+@import "./components/modal";
 
 @import "./layouts/main-page";
 @import "./layouts/app-advantages-page";   //page - 6
@@ -20,5 +21,7 @@
 @import "./layouts/weightloss-plan-page";   // page - 24
 @import "./layouts/get-plan";              // page - 27
 @import "./layouts/happy-users-page";      // page - 28
+@import "./layouts/workouts-page";         // page - 29
+@import "./layouts/right-workout-page";    // page - 30-33
 
 @import "./utils/variables";
