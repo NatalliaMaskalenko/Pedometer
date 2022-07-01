@@ -1,0 +1,32 @@
+.container__mailing{
+    padding-top: 106px;
+}
+
+.title__mailing--accent{
+    color: var(--title-accent-color);
+}
+
+.desc__mailing{
+    margin-top: 65px;
+    margin-bottom: 16px;
+}
+
+.input__mailing{
+    padding: 16px;
+    width: 100%;
+    border-radius: 19px;
+    background-color: var(--color-bg-accent);
+    border: none;
+    outline: none;
+}
+
+.inner__mailing{
+    display: flex;
+    margin-top: 27px;
+    margin-bottom: 269px;
+}
+
+.svg__mailing{
+flex-basis: calc((100% - 12px) * 0.14);
+margin-right: 12px;
+}

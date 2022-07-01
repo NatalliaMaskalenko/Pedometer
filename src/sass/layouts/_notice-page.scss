@@ -1,0 +1,22 @@
+.container__notice{
+    padding-top: 54px;
+    text-align: center;
+}
+
+.title__notice{
+    margin-top: 12px;
+    margin-bottom: 65px;
+}
+
+.wrap__notice{
+    margin-bottom: 166px;
+}
+
+.text__notice{
+    text-align: left;
+    
+   &:not(:last-child) {
+     margin-bottom: 11px;
+ }
+}
+
