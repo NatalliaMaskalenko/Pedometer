@@ -184,24 +184,24 @@
             </label>
 
             <div class="inner__form-card">
-              <label for=""
+              <label class="label__form-card--data"
                 ><input
                   class="input__form-card"
                   type="text"
-                  name="month"
+                  name="data"
                   placeholder="Expiry date"
                   required
-                  minlength="2"
-                  maxlength="2"
+                  minlength="4"
+                  maxlength="4"
                   pattern="[0-9]{2}"
               /></label>
 
-              <label class="form__label form-label_card">
+              <label class="label__form-card--cvc">
                 <input
                   class="input__form-card"
                   type="text"
                   name="cvc"
-                  placeholder="123"
+                  placeholder="CVC"
                   required
                   minlength="3"
                   maxlength="3"
@@ -210,9 +210,9 @@
               </label>
             </div>
 
-            <label class="form__label">
+            <label>
               <input
-                class="form__field"
+                class="input__form-card"
                 type="email"
                 name="mail"
                 placeholder="Email"
@@ -221,7 +221,7 @@
               />
             </label>
 
-            <p>or</p>
+            <p class="text__form-card">or</p>
           </div>
 
           <label class="label__form-pay" for="form-pay_pay">
@@ -242,12 +242,34 @@
         </form>
       </section>
 
-      <!-- <a class="button__next" href=".//index-15.html">
+      <section class="terms">
+        <ul class="list__terms">
+          <li class="item__terms"><p>Your 7-day trial lasts until Jun 13, 2022, 3:33 PM.</p></li>
+          <li class="item__terms">
+            <p>
+              Your may cancel anytime without charge at least 24 hours before the expiration of the
+              trial period.
+            </p>
+          </li>
+          <li class="item__terms">
+            <p>
+              If you don’t cancel, your membership will automatically continue following your 7-day
+              trial. Here, you’ll be charged Weight Loss Walking’s membership fee (currently fee) on
+              a #166868 $79.20 basis until you cancel.
+            </p>
+          </li>
+          <li class="item__terms">
+            <p>We don’t currently offer refunds or credits for partial memberships.</p>
+          </li>
+        </ul>
+      </section>
+
+      <a class="button__next" href=".//index-15.html">
         <svg class="" width="21" height="27">
           <use href="../images/icons-sprite/symbol-defs.svg#icon-Group-1"></use>
         </svg>
-        <span>Next</span>
-      </a> -->
+        <span>Continue</span>
+      </a>
     </div>
 
     <!-- <script src="../js/timer.js"></script> -->
