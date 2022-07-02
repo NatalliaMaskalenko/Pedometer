@@ -7,7 +7,7 @@
     }    
 }
 
-.item__reviews:not(:last-child)::after {
+.item__reviews::after {
     content: "";
     display: inline-block;
     position: absolute;

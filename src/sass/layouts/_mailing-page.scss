@@ -28,5 +28,14 @@
 
 .svg__mailing{
 flex-basis: calc((100% - 12px) * 0.14);
+padding-left: 7px;
 margin-right: 12px;
+}
+
+.text__mailing{
+    padding-right: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
 }

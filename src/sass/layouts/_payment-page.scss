@@ -1,0 +1,191 @@
+.container__payment{  
+    padding-bottom: 111px;
+    height: 100%;
+}
+
+.title__payment{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.subtitle__payment{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;    
+}
+
+.time-remaining{
+    margin-top: 30px;
+    margin-bottom: 33px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+    background-color: var(--color-bg-accent);
+    border: 1px solid var(--color-checkbox);
+    border-radius: 19px;
+}
+
+.text__time-remaining{
+    margin-bottom: 7px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.title__time-remaining{
+    margin-bottom: 7px;
+    color: var(--color-text-accent);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;    
+}
+
+.notice__time-remaining{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--notice-color);
+}
+
+.graphic-plan{
+    margin-bottom: 33px;
+}
+
+.title__graphic-plan{
+    margin-top: 17px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: var(--color-text-accent);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.item__benefits{
+    display: flex;
+
+    &:not(:last-child){
+        margin-bottom: 14px;
+    }
+}
+
+.svg__benefits{
+    margin-right: 11px;
+}
+
+.price{
+    margin-top: 62px;
+    margin-bottom: 57px;
+}
+
+.subtitle__price{
+    margin-bottom: 11px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.inner__price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid var(--color-bg-accent);
+    border-radius: 19px;
+    padding-left: 13px;
+    padding-top: 20px;
+    padding-right: 13px;
+    padding-bottom: 20px;
+}
+
+.inner__price-narrow{
+    padding-top: 13px; 
+    padding-bottom: 13px;
+}
+
+.wrapper__price{
+    display: flex;
+}
+
+.text__price-light{
+    margin-right: 7px;
+    color: var(--notice-color);
+    text-decoration: line-through;
+}
+
+.notice__price{
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: var(--notice-color);
+
+    &:last-child{
+        margin-bottom: 26px;
+    }
+}
+
+.text__price-tiny{
+    text-align: right;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.text__price-moved{
+    text-align: right;
+}
+
+.input__price:checked + .inner__price{
+border: 1px solid var(--color-text-accent);
+}
+
+.pay-method{
+    margin-top: 48px;
+    margin-bottom: 52px;
+}
+
+.container__pay-method{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.phrase__pay-method{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.5;
+}
+
+.text__pay-method{
+    margin-bottom: 11px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;        
+}
+
+.inner__form-pay--visa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 22px;
+    padding-bottom: 16px;
+    background: var(--color-bg-accent);   
+    border-radius: 19px;
+}
+
+.svg__form-pay--inner{
+    display: flex;
+    align-items: center;
+}
+
+.svg__form-pay--visa{
+    margin-right: 12px;
+}
