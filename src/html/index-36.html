@@ -142,13 +142,13 @@
         <form class="form-pay">
           <label class="label__form-pay" for="form-pay_visa">
             <input
-              class="visually-hidden"
+              class="visually-hidden input__form-pay"
               type="radio"
               name="form-pay"
               value="visa"
               id="form-pay_visa"
             />
-            <div class="inner__form-pay--visa">
+            <div class="inner__form-pay inner__form-pay--visa">
               <p>Pay with credit card</p>
               <div class="svg__form-pay--inner">
                 <svg class="svg__form-pay--visa" width="38" height="11">
@@ -169,30 +169,10 @@
             </div>
           </label>
 
-          <label class="label__price" for="form-pay_pay">
-            <input
-              class="visually-hidden input__price"
-              type="radio"
-              name="form-pay"
-              value="pay"
-              id="form-pay_pay"
-            />
-            <div class="inner__price inner__price-narrow">
-              <svg class="" width="40" height="40">
-                <use href="../images/icons-sprite/symbol-defs.svg#icon-Group-3895"></use>
-              </svg>
-              <p>Pay</p>
-            </div>
-          </label>
-        </form>
-
-        <!-- <form action="">
-        
-
-          <label class="form__label">
-           
+          <div class="container__form-card">
+            <label>
               <input
-                class="form__field"
+                class="input__form-card"
                 type="text"
                 name="cardnumber"
                 placeholder="Card number"
@@ -200,45 +180,25 @@
                 minlength="12"
                 maxlength="12"
                 pattern="[0-9]{12}"
-                
-              />           
-          </label>
-          <label class="">
-                   
-                  <input
-                    class="form__field form__field-card form__field-data"
-                    type="text"
-                    name="month"
-                    placeholder="09"
-                    required
-                    minlength="2"
-                    maxlength="2"
-                    pattern="[0-9]{2}"
-                  />
-              
-
-                <span
-                  class="form__container form-container-card form__container-data"
-                >
-                  <input
-                    class="form__field form__field-card form__field-data"
-                    type="text"
-                    name="year"
-                    placeholder="25"
-                    required
-                    minlength="2"
-                    maxlength="2"
-                    pattern="[0-9]{2}"
-                  />
-                </span>
-              </div>
+              />
             </label>
 
-  <label class="form__label form-label_card">
-              <span class="form__text">CVC:</span>
-              <span class="form__container form-container-card">
+            <div class="inner__form-card">
+              <label for=""
+                ><input
+                  class="input__form-card"
+                  type="text"
+                  name="month"
+                  placeholder="Expiry date"
+                  required
+                  minlength="2"
+                  maxlength="2"
+                  pattern="[0-9]{2}"
+              /></label>
+
+              <label class="form__label form-label_card">
                 <input
-                  class="form__field form__field-card"
+                  class="input__form-card"
                   type="text"
                   name="cvc"
                   placeholder="123"
@@ -247,24 +207,39 @@
                   maxlength="3"
                   pattern="[0-9]{3}"
                 />
-              </span>
-            </label>
-                    <form class="form">
-          <label class="form__label">
-            <span class="form__text">Email:</span>
-            <span class="form__container">
+              </label>
+            </div>
+
+            <label class="form__label">
               <input
                 class="form__field"
                 type="email"
                 name="mail"
-                placeholder="vika@fjmobile.io"
+                placeholder="Email"
                 required
                 autofocus
               />
-            </span>
-          </label>
+            </label>
 
-        </form>  -->
+            <p>or</p>
+          </div>
+
+          <label class="label__form-pay" for="form-pay_pay">
+            <input
+              class="visually-hidden input__form-pay"
+              type="radio"
+              name="form-pay"
+              value="pay"
+              id="form-pay_pay"
+            />
+            <div class="inner__form-pay inner__form-pay--pay">
+              <svg class="" width="21" height="25">
+                <use href="../images/icons-sprite/symbol-defs.svg#icon-Group-3895"></use>
+              </svg>
+              <p class="text-pay--pay">Pay</p>
+            </div>
+          </label>
+        </form>
       </section>
 
       <!-- <a class="button__next" href=".//index-15.html">

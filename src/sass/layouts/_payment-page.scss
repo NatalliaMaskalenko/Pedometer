@@ -189,3 +189,65 @@ border: 1px solid var(--color-text-accent);
 .svg__form-pay--visa{
     margin-right: 12px;
 }
+
+.inner__form-pay--pay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+    margin-bottom: 52px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+   
+    background: var(--color-text-main-page);
+    border: 1px solid var(--border-input);
+    border-radius: 100px;
+}
+
+.text-pay--pay{
+    margin-left: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--title-modal);
+}
+
+.input__form-pay:checked + .inner__form-pay{
+    border: 1px solid #2588FF;
+}
+
+.container__form-card{
+    margin-top: 17px;
+    text-align: center;
+}
+
+.input__form-card{           
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: var(--color-bg-accent);
+    border-radius: 19px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+
+    &:focus,
+    &:hover{
+        border: 1px solid #2588FF;
+    }
+}
+
+.inner__form-card{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
