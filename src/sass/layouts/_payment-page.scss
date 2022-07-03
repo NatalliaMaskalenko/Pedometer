@@ -289,3 +289,14 @@ border: 1px solid var(--color-text-accent);
 .item__terms:not(:last-child){
     margin-bottom: 13px;
 }
+
+.button__next--payment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 37px;
+}
+
+.svg__payment{
+    margin-right: 12px;
+}
