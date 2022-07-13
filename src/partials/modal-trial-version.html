@@ -1,0 +1,50 @@
+<div class="backdrop" data-modal id="backdrop">
+  <div class="modal modal__trial-version">
+    <div>
+      <p class="modal__text">
+        In view of the pandemic and global health crisis, we are offering the option to try out
+        Walking for as little as $1 for a 7-day trial*.
+      </p>
+      <p class="modal__text modal__text--accent">
+        Money shouldn’t stand in the way of your weight loss and well-being goals. So choose an
+        amount that you think is reasonable to try us out.
+      </p>
+      <p class="modal__text">
+        It costs us $9.99 to cover our expenses for the trial, but please
+        <span class="modal__text--accent">choose an amount you-re comfortable with.</span>
+      </p>
+    </div>
+
+    <form class="modal__form--trial-version">
+      <label class="label__trial-version" for="cost-request">
+        <input
+          class="visually-hidden input__trial-version"
+          type="radio"
+          name="cost"
+          value="request"
+          id="cost-request"
+        />
+        <div class="inner__trial-version">
+          <p>$9.99</p>
+        </div>
+      </label>
+
+      <label class="label__trial-version" for="cost-offer">
+        <input
+          class="visually-hidden input__trial-version"
+          type="radio"
+          name="cost"
+          value="offer"
+          id="cost-offer"
+        />
+        <div class="inner__trial-version">
+          <p>$1</p>
+        </div>
+      </label>
+    </form>
+
+    <p class="notice__trial-version">Most popular choice*</p>
+    <button class="button">Got it</button>
+    <p class="footer__trial-version">*7-day trial</p>
+  </div>
+</div>
