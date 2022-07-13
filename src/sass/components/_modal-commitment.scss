@@ -1,0 +1,18 @@
+.modal_title{
+    text-align: center;
+    margin-bottom: 24px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1.26;
+    color: var(--title-modal);
+}
+
+.modal__text--location{   
+    font-weight: 400;      
+
+    &:not(:last-child){
+        margin-bottom: 24px;
+    }
+}
